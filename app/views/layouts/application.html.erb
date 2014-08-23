@@ -2,13 +2,15 @@
 <html>
 <head>
   <title>DartRailsSample</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%#= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
 <%= yield %>
 
+<%= dart_include_tag 'dart_app' %>
+<%= javascript_include_tag 'dart' %>
 </body>
 </html>

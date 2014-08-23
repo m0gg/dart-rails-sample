@@ -1,0 +1,6 @@
+name: dart-rails-sample
+description: Sample application showing dart-rails
+dependencies:
+  rails_ujs:
+    git:
+      url: https://github.com/m0gg/dart-rails_ujs.git

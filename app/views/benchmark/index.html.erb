@@ -1,0 +1,21 @@
+<h1>Arithmetic test</h1>
+
+<p>Benchmarks</p>
+<div>
+  <input id="arithmetic" type="checkbox" /><label>arithmetic operation</label>
+  <div class="subtest">
+    <input disabled="disabled" id="io" type="checkbox" /><label>I/O operation <span class="note">(This may take a long time, some browsers may be unresponsive)</span></label><br />
+    <input disabled="disabled" id="json" type="checkbox" /><label>JSON processing</label>
+  </div>
+  <input id="arithmeticSIMD" type="checkbox" /><label>arithmetic operation with SIMD extension</label><br />
+
+</div>
+<p><button id="start_button">start</button></p>
+<p><button id="export_button">export results</button></p>
+<div id="content_container">
+
+</div>
+<p id="results"></p>
+<div id="seed_container">
+  <textarea id="export_text"></textarea>
+</div>

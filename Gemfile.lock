@@ -1,3 +1,18 @@
+GIT
+  remote: git://github.com/m0gg/dart-rails.git
+  revision: e08d730d92ea7979235da56ec642de6759007398
+  specs:
+    dart-rails (0.0.3)
+      rails (>= 3.0.0)
+      ruby-dart_js (~> 0.0.2)
+      sprockets-rails (>= 2.0.0)
+
+GIT
+  remote: git://github.com/m0gg/ruby-dart_js.git
+  revision: 32f8fd64e25fb215afcedc69a768468496f74e2c
+  specs:
+    ruby-dart_js (0.0.2)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -47,6 +62,7 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.8.1)
+    libv8 (3.16.14.3)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
@@ -75,6 +91,7 @@ GEM
     rake (10.3.2)
     rdoc (4.1.1)
       json (~> 1.4)
+    ref (1.0.5)
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -95,14 +112,15 @@ GEM
       activesupport (>= 3.0)
       sprockets (~> 2.8)
     sqlite3 (1.3.9)
+    therubyracer (0.12.1)
+      libv8 (~> 3.16.14.0)
+      ref
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
-    turbolinks (2.3.0)
-      coffee-rails
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     uglifier (2.5.3)
@@ -114,12 +132,14 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 4.0.0)
+  dart-rails!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.1.5)
+  ruby-dart_js!
   sass-rails (~> 4.0.3)
   sdoc (~> 0.4.0)
   spring
   sqlite3
-  turbolinks
+  therubyracer
   uglifier (>= 1.3.0)
