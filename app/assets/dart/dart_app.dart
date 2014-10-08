@@ -14,6 +14,7 @@ part 'lib/benchmark_arith.dart';
 part 'lib/benchmark_io.dart';
 part 'lib/benchmark_json.dart';
 
+RailsUjs ujsHelper;
 
 DivElement content, seed_container;
 ParagraphElement result_info;
@@ -23,6 +24,7 @@ List<BenchmarkResult> results;
 Storage store;
 
 void main() {
+  ujsHelper = new RailsUjs();
   store = window.localStorage;
   store.clear();
   content = querySelector("#content_container");

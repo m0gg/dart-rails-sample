@@ -39,5 +39,5 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # dart support
-gem 'ruby-dart_js', github: 'm0gg/ruby-dart_js'
-gem 'dart-rails', github: 'm0gg/dart-rails'
+gem 'ruby-dart2js', github: 'm0gg/ruby-dart2js'
+gem 'dart-rails', '~> 0.2.0', github: 'm0gg/dart-rails'
