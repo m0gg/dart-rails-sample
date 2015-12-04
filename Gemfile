@@ -39,5 +39,4 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # dart support
-gem 'dart-rails', '~> 0.2.4'
-gem 'non-stupid-digest-assets', '>= 1.1', github: 'm0gg/non-stupid-digest-assets'
+gem 'dart-rails', git: 'git@github.com:m0gg/dart-rails.git', branch: 'behavior_change_dart2js'
