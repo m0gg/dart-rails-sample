@@ -40,5 +40,4 @@ gem 'jbuilder', '~> 2.0'
 # gem 'debugger', group: [:development, :test]
 
 # dart support
-#gem 'dart-rails', git: 'git@github.com:m0gg/dart-rails.git', branch: 'behavior_change_dart2js'
-gem 'dart-rails', path: '/home/msackermann/arbeitskopien/dart-rails'
+gem 'dart-rails', git: 'git@github.com:m0gg/dart-rails.git', branch: 'behavior_change_dart2js'
