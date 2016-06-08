@@ -1,4 +1,4 @@
-name: dart-rails-sample
+name: dart_rails_sample
 description: Sample application showing dart-rails
 dependencies:
   rails_ujs:
